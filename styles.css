@@ -3,5 +3,9 @@ table {
     background-color: rgb(61, 207, 61);
     color: rgb(255, 255, 255); /* betűszín */
     font-family: 'Courier New'; /* betűtípus */
-font-size: 30px; /* betűméret */
+    font-size: 30px; /* betűméret */
+  }
+
+  td {
+    background-color: rgb(37, 112, 41);
   }
