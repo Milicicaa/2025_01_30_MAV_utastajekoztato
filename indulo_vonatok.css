@@ -1,0 +1,19 @@
+table, th, td {
+    border: 1px solid;
+  }
+   th {
+    background-color: rgb(216, 238, 247);
+   }
+
+  tbody tr:nth-child(even) {
+      background-color: rgb(49, 150, 209);
+  }
+
+  tbody tr:nth-child(odd) {
+      background-color: rgb(141, 196, 241);
+  }
+  
+  #keso_indulo_vonat {
+      background-color: rgb(223, 45, 45);
+  }
+
