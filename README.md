@@ -13,7 +13,7 @@ Nyisd meg a `https://github.com/Milicicaa/2025_01_30_MAV_utastajekoztato.git` we
 #### 🔴 Élő demó
 
 Tekintsd meg a projektet élőben:
-[📎 MÁV Utastájékoztató](https://github.com/Milicicaa/2025_01_30_MAV_utastajekoztato.git)
+[📎 MÁV Utastájékoztató](https://milicicaa.github.io/2025_01_30_MAV_utastajekoztato/)
 
 ### ⚙️ Alap HTML szerkezet
 ```html
