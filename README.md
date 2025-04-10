@@ -1,21 +1,21 @@
 # MÁV utastájékoztató
 
-Ez a HTML oldal a MÁV menetrendjét mutatja, amely segít az utasoknak az eligazodásban és az információk megszerzéséről
+Ez a HTML oldal a MÁV menetrendjét mutatja, amely segít az utasoknak az eligazodásban és az információk megszerzésében
 
 
-### 📌 Funkciók
-- 🚉 Induló és érkező vonatok
-- ⏰ Állomás, indulási és érkezési idők mutatása
-- 🎨 Könnyen átlátható, dizájnos
+### 📍 Mik a funkciói?
+- 🚂 Induló és érkező vonatok
+- 🕰 Állomás, indulási és érkezési idők mutatása
+- ✨ Könnyen átlátható, dizájnos
 
-### 🚀 Használat
-Nyisd meg a `https://github.com/Milicicaa/2025_01_30_MAV_utastajekoztato.git` weboldalt a böngészőben, és a rendszer betölti az aktuális adatokat.
-#### 🌍 Élő demó
+### 🧐 Hogyan kell használni?
+Nyisd meg a `https://github.com/Milicicaa/2025_01_30_MAV_utastajekoztato.git` weboldalt a böngészőben, majd a rendszer betölti a jelenlegi adatokat
+#### 🔴 Élő demó
 
-A projekt élőben megtekinthető az alábbi linken:  
-[🔗 MÁV Utastájékoztató](https://github.com/Milicicaa/2025_01_30_MAV_utastajekoztato.git)
+Tekintsd meg a projektet élőben:
+[📎 MÁV Utastájékoztató](https://github.com/Milicicaa/2025_01_30_MAV_utastajekoztato.git)
 
-### 🏗️ Alap HTML szerkezet
+### ⚙️ Alap HTML szerkezet
 ```html
 <!DOCTYPE html>
 <html lang="hu">
@@ -29,14 +29,6 @@ A projekt élőben megtekinthető az alábbi linken:
 <body>
     <table>
         <thead>
-            <tr>
-                <th>8:43:03</th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th><img src="mav-logo.png" alt="MÁV logó" height="60px"></th>
-            </tr>
             <tr>
                 <th>Tervezett érkezés</th>
                 <th>Érkezés</th>
@@ -64,38 +56,6 @@ A projekt élőben megtekinthető az alábbi linken:
                 <td>Csongrád</td>
                 <td>2</td>
             </tr>    
-            <tr class="paratlan"> 
-                <td>9:22</td>
-                <td></td>
-                <td>IC</td>
-                <td>Szeged</td>
-                <td>Szatymaz-Kistelek</td>
-                <td>4</td>
-            </tr>          
-            <tr>
-                <td>9:24</td>
-                <td></td>
-                <td>SZ</td>
-                <td>Lakitelek</td>
-                <td>Tiszaalpár</td>
-                <td>1</td>
-            </tr>         
-            <tr class="paratlan"> 
-                <td>9:27</td>
-                <td></td>
-                <td>IC</td>
-                <td>Nyugati** Budapest</td>
-                <td>Cegléd-Kecskemét</td>
-                <td>5</td>
-            </tr>       
-            <tr>
-                <td>9:30</td>
-                <td></td>
-                <td>IC</td>
-                <td>Szeged</td>
-                <td>Szatymaz-Kistelek</td>
-                <td>3</td>
-            </tr>
         </tbody>
     </table>
 
@@ -104,7 +64,7 @@ A projekt élőben megtekinthető az alábbi linken:
 </html>
 ```
 
-## 🎨 CSS Stílusok
+## 🪅 CSS Stílusok
 ```css
 table {
     border: 1px solid;
